@@ -43,13 +43,12 @@
     </appender>
 
   <logger name="org.jboss" level="ERROR"/>
+  <logger name="org.commonjava" level="INFO" />
   <!--
   <logger name="org.jboss.resteasy" level="DEBUG"/>
-  -->
   <logger name="org.commonjava" level="DEBUG" />
-  <!-- 
-  <logger name="org.commonjava.maven.galley.transport" level="DEBUG" />
   -->
+  <logger name="org.commonjava.maven.galley.transport" level="DEBUG" />
 
   <root level="INFO">
     <appender-ref ref="STDOUT" />
