@@ -30,7 +30,7 @@
       <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
         <fileNamePattern>${aprox.home}/var/log/aprox/aprox.%i.log</fileNamePattern>
 
-        <maxHistory>20</maxHistory>
+        <maxHistory>50</maxHistory>
       </rollingPolicy>
 
       <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
@@ -44,6 +44,8 @@
 
   <logger name="org.jboss" level="ERROR"/>
   <logger name="org.commonjava" level="INFO" />
+  <logger name="org.commonjava.aprox.folo" level="DEBUG" />
+  <logger name="org.commonjava.aprox.promote" level="DEBUG" />
   <!--
   <logger name="org.jboss.resteasy" level="DEBUG"/>
   <logger name="org.commonjava" level="DEBUG" />
