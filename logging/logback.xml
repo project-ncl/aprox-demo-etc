@@ -38,7 +38,7 @@
       </triggeringPolicy>
 
       <encoder>
-        <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
       </encoder>
     </appender>
 
@@ -46,6 +46,7 @@
   <logger name="org.commonjava" level="INFO" />
   <logger name="org.commonjava.aprox.folo" level="DEBUG" />
   <logger name="org.commonjava.aprox.promote" level="DEBUG" />
+  <logger name="org.commonjava.aprox.core.content" level="DEBUG" />
   <!--
   <logger name="org.jboss.resteasy" level="DEBUG"/>
   <logger name="org.commonjava" level="DEBUG" />
